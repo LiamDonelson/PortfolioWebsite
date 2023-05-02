@@ -8,6 +8,7 @@
   }
   .sidenav-containter{
     right: 150px;
+    background-color: black;
   }
 
   svg#clouds {
@@ -22,7 +23,7 @@
 </style>
 
 <!-- THIS IS FOR THE SIDENAV BAR -->
-<div class="sidenav">
+<!-- <div class="sidenav">
   <mat-toolbar >
     <mat-toolbar-row style="margin-top: 20px;">
       <button mat-icon-button style="height: 0px;">
@@ -45,8 +46,29 @@
      </mat-sidenav-content>
   
     </mat-sidenav-container>
-  </div>
+  </div> -->
 
+<div  ng-init="navcontainer=false">
+  <button class="sidenavz" (click)="sideNavButton()" >
+  <img src="https://i.pinimg.com/originals/35/8b/f6/358bf617c093163955378bec6b0f492e.png" style="height: 45px; width: 45px;"/>
+  </button>
+  <div  class="hidez">
+    <a>Home</a>
+    <br>
+    <br>
+    <a>About Me</a>
+    <br>
+    <br>
+    <a>Projects</a>
+    <br>
+    <br>
+    <a>Contact me!</a>
+  </div>
+</div>
+
+
+
+  <!-- Welcome! -->
   <body>
     <div class="waviy">
       <span style="--i:1">W</span>

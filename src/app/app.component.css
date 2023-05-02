@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -11,6 +12,37 @@
     align-items: center;
     min-height: 100vh;
   }
+
+  .sidenavz{
+    width: 40px;
+    height: 40px;
+    position:absolute;
+    right: 25px;
+    top: 25px;
+    border: none;
+    background: none;
+  }
+
+  .hidez{
+  display: none;
+  color:black;
+  position:absolute;
+  justify-content: right;
+  align-items: center;
+  right: 45px;
+  top: 100px;
+  }
+
+  .sidenavz:hover + .hidez {
+    display:block;
+    color:White;
+    position: absolute;
+    font-size:x-large;
+    font-family:Lobster;
+  }
+
+
+
   .waviy {
     position: relative;
   }
